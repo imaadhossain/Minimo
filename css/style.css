@@ -1,0 +1,191 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header {}
+.container {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width: 12%;
+	float: left;
+	margin-top: 34px;
+}
+.logo h1 {}
+.logo img {
+	width: 100%;
+}
+.menu {
+	width: 65%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 42px 55px;
+	color: #626262;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: black;
+}
+
+
+/*header end*/
+
+/*banner start*/
+.banner {}
+.banner-content {}
+.banner-content img {
+	width: 100%;
+}
+/*banner end*/
+
+/*article start*/
+article {
+	padding: 80px 0;
+}
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.perfect-content {}
+.perfect-content h1 {
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+.second {
+	font-size: 14px;
+	line-height: 1.7;
+	word-spacing: 1px;
+	letter-spacing: .7px;
+	margin-bottom: 35px;
+}
+.first {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+}
+/*article end*/
+
+/*blog start*/
+.blog {
+	padding: 60px 0;
+}
+.single {
+	width: 47%;
+	float: left;
+	padding-bottom: 50px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 17px 0;
+}
+/*blog end*/
+
+/*newsletter start*/
+.newsletter {
+	min-height: 240px;
+	background-color: #f0f0f0;
+}
+/*newsletter end*/
+
+/*blog2 start*/
+.blog2 {
+	padding: 80px 0;
+}
+/*blog2 end*/
+
+/*button start*/
+.button {
+	margin-bottom: 150px;
+}
+.container3 {
+	text-align: center;
+}
+.container3 button {
+	padding: 20px 30px;
+	font-size: 20px;
+	border: none;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .3s;
+}
+.container3 button:hover {
+	color: white;
+	background-color: #626262;
+}
+
+/*button end*/
+
+/*footer start*/
+footer {
+	margin-bottom: 50px;
+}
+.footer-menu {}
+.footer-menu ul {}
+.footer-menu ul li {
+	list-style: none;
+	float: left;
+}
+.footer-menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 15px;
+	color: black;
+	font-weight: bold;
+	transition: .5s;
+}
+.footer-menu ul li a:hover {
+	color: #626262;
+
+}
+.icons {}
+.icons ul {}
+.icons ul li {
+	list-style: none;
+	float: right;
+}
+.icons ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 15px;
+	color: #626262;
+	font-weight: bold;
+	transition: .5s;
+}
+.icons ul li a:hover {
+	color: black;
+}
+
+/*footer end*/
